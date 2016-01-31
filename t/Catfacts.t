@@ -12,14 +12,14 @@ ddg_spice_test(
     # At a minimum, be sure to include tests for all:
     # - primary_example_queries
     # - secondary_example_queries
-    'example query' => test_spice(
+    'random cat fact' => test_spice(
         '/js/spice/catfacts/query',
         call_type => 'include',
         caller => 'DDG::Spice::Catfacts'
     ),
     # Try to include some examples of queries on which it might
     # appear that your answer will trigger, but does not.
-    'bad example query' => undef,
+    'random fact about cats' => undef,
 );
 
 done_testing;
