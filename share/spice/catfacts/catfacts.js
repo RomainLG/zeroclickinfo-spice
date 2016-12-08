@@ -12,10 +12,10 @@
             id: "catfacts",
 
             // Customize these properties
-            name: "A randoom cat fact!",
+            name: "Answer",
             data: api_result,
             meta: {
-                sourceName: "catfacts-api.appspot.com",
+                sourceName: "Catfacts API",
                 sourceUrl: 'http://catfacts-api.appspot.com/doc.html'
             },
             normalize: function(item) {
